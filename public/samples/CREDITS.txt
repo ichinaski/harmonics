@@ -1,0 +1,10 @@
+Samples: FluidR3_GM (mp3), from https://github.com/gleitz/midi-js-soundfonts (FluidR3_GM by Frank Wen).
+License: Creative Commons Attribution 3.0 (CC BY 3.0), https://creativecommons.org/licenses/by/3.0/
+
+piano/: "acoustic_grand_piano", C2..C6, every minor third.
+electric-guitar/: "electric_guitar_clean", C2..C6, every minor third.
+acoustic-guitar/: "acoustic_guitar_steel", C2..C6, every minor third.
+bass/: "electric_bass_finger", C1..C5, every minor third.
+
+Files are kept unmodified; only a subset of notes is included.
+Regenerate with `npm run fetch-samples` (scripts/fetch-samples.ts).

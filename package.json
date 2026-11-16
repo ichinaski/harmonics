@@ -1,0 +1,31 @@
+{
+  "name": "harmonics",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "qa": "npm run build && node scripts/qa/run.ts",
+    "qa:quick": "npm run build && node scripts/qa/run.ts --quick",
+    "fetch-samples": "node scripts/fetch-samples.ts"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.9",
+    "@types/node": "^24.19.2",
+    "puppeteer-core": "^25.18.1",
+    "svelte": "^5.58.0",
+    "svelte-check": "^4.7.8",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "dependencies": {
+    "smplr": "^1.2.0"
+  }
+}

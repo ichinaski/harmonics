@@ -1,0 +1,181 @@
+/* Design tokens: spacing, radii, shadows, type, theme colors and the chord
+   quality palette. Light theme by default, dark via prefers-color-scheme.
+   Badge text (--q-*-fg) on badge fill (--q-*-bg) meets WCAG AA (4.5:1) in
+   both themes; tests/tokens.test.ts checks every text pair listed there. */
+
+:root {
+  color-scheme: light dark;
+
+  /* Spacing (4px scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-pill: 999px;
+
+  /* Type. Inter has ° and ø but no ♭ ♯ ♮ glyphs; browsers fall back per
+     character to the next font in this stack that has them (system UI and
+     symbol fonts), so chord symbols still render those signs. */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Apple Symbols', 'Segoe UI Symbol', 'Noto Sans Symbols', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-chord: 1.25rem;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* Motion */
+  --duration: 150ms;
+  --easing: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Layout */
+  --content-width: 760px;
+  /* The Sheet editor, with the editor and the preview side by side. */
+  --content-width-wide: 1240px;
+  --header-height: 56px;
+  --tabbar-height: 64px;
+  --touch-target: 44px;
+
+  /* Theme: light */
+  --bg: #f1f5f9;
+  --surface: #ffffff;
+  --surface-muted: #f8fafc;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --divider: #e2e8f0;
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow: 0 1px 3px rgb(15 23 42 / 0.08), 0 4px 12px rgb(15 23 42 / 0.05);
+
+  /* Accent (indigo): fills for selected/active things, text on them, and accent-colored text */
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  --accent-contrast: #ffffff;
+  --accent-text: #4f46e5;
+  --accent-soft: #e0e7ff;
+  --focus-ring: 0 0 0 3px rgb(79 70 229 / 0.35);
+
+  /* Quality family palette: badge fill, badge text, solid edge */
+  --q-major-bg: #fef3c7;
+  --q-major-fg: #92400e;
+  --q-major-edge: #d97706;
+  --q-minor-bg: #dbeafe;
+  --q-minor-fg: #1e40af;
+  --q-minor-edge: #2563eb;
+  --q-dominant-bg: #ffe4de;
+  --q-dominant-fg: #b42318;
+  --q-dominant-edge: #e5484d;
+  --q-diminished-bg: #ede9fe;
+  --q-diminished-fg: #5b21b6;
+  --q-diminished-edge: #7c3aed;
+  --q-augmented-bg: #ccfbf1;
+  --q-augmented-fg: #115e59;
+  --q-augmented-edge: #0d9488;
+  --q-suspended-bg: #dcfce7;
+  --q-suspended-fg: #166534;
+  --q-suspended-edge: #16a34a;
+  --q-power-bg: #e2e8f0;
+  --q-power-fg: #334155;
+  --q-power-edge: #64748b;
+
+  /* Problem marks on the Sheet preview (screen only). The paper is always
+     white, so these stay the same in the dark theme. */
+  --sheet-error-mark: #b42318;
+  --sheet-error-mark-text: #ffffff;
+  --sheet-error-soft: #ffe4de;
+  --sheet-warning-mark: #b45309;
+  --sheet-warning-mark-text: #ffffff;
+
+  /* Piano keys. Selected keys use --accent / --accent-contrast. Labels on
+     each key color are checked for AA in tokens.test.ts. */
+  --key-bed: #cbd5e1;
+  --key-white: #ffffff;
+  --key-white-text: #475569;
+  --key-black: #1e293b;
+  --key-black-text: #e2e8f0;
+  --key-scale-white: #e0e7ff;
+  --key-scale-white-text: #3730a3;
+  --key-scale-black: #3730a3;
+  --key-scale-black-text: #e0e7ff;
+  --key-tonic-white: #a5b4fc;
+  --key-tonic-white-text: #1e1b4b;
+  --key-tonic-black: #4338ca;
+  --key-tonic-black-text: #ffffff;
+  --key-missing-white-ring: #4f46e5;
+  --key-missing-white-text: #4338ca;
+  --key-missing-black-ring: #a5b4fc;
+  --key-missing-black-text: #c7d2fe;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface-muted: #172033;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --divider: #334155;
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
+    --shadow: 0 1px 3px rgb(0 0 0 / 0.35), 0 4px 12px rgb(0 0 0 / 0.25);
+
+    --accent: #4f46e5;
+    --accent-hover: #6366f1;
+    --accent-contrast: #ffffff;
+    --accent-text: #a5b4fc;
+    --accent-soft: #312e81;
+    --focus-ring: 0 0 0 3px rgb(165 180 252 / 0.45);
+
+    --q-major-bg: #422c06;
+    --q-major-fg: #fcd34d;
+    --q-major-edge: #f59e0b;
+    --q-minor-bg: #172a54;
+    --q-minor-fg: #93c5fd;
+    --q-minor-edge: #60a5fa;
+    --q-dominant-bg: #4a1510;
+    --q-dominant-fg: #fca5a5;
+    --q-dominant-edge: #f87171;
+    --q-diminished-bg: #2e1a5e;
+    --q-diminished-fg: #c4b5fd;
+    --q-diminished-edge: #a78bfa;
+    --q-augmented-bg: #08332f;
+    --q-augmented-fg: #5eead4;
+    --q-augmented-edge: #2dd4bf;
+    --q-suspended-bg: #0b3320;
+    --q-suspended-fg: #86efac;
+    --q-suspended-edge: #4ade80;
+    --q-power-bg: #334155;
+    --q-power-fg: #e2e8f0;
+    --q-power-edge: #94a3b8;
+
+    --key-bed: #0b1220;
+    --key-white: #cbd5e1;
+    --key-white-text: #334155;
+    --key-black: #111827;
+    --key-black-text: #cbd5e1;
+    --key-scale-white: #c7d2fe;
+    --key-scale-white-text: #312e81;
+    --key-scale-black: #312e81;
+    --key-scale-black-text: #e0e7ff;
+    --key-tonic-white: #818cf8;
+    --key-tonic-white-text: #1e1b4b;
+    --key-tonic-black: #4338ca;
+    --key-tonic-black-text: #ffffff;
+    --key-missing-white-ring: #4f46e5;
+    --key-missing-white-text: #3730a3;
+    --key-missing-black-ring: #a5b4fc;
+    --key-missing-black-text: #c7d2fe;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration: 0ms;
+  }
+}

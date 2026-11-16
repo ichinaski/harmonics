@@ -1,0 +1,103 @@
+{
+  "source": "https://github.com/gleitz/midi-js-soundfonts",
+  "soundfont": "FluidR3_GM",
+  "license": "Creative Commons Attribution 3.0 (CC BY 3.0), https://creativecommons.org/licenses/by/3.0/",
+  "instruments": {
+    "piano": {
+      "folder": "piano",
+      "soundfont": "acoustic_grand_piano",
+      "notes": [
+        "C2",
+        "Eb2",
+        "Gb2",
+        "A2",
+        "C3",
+        "Eb3",
+        "Gb3",
+        "A3",
+        "C4",
+        "Eb4",
+        "Gb4",
+        "A4",
+        "C5",
+        "Eb5",
+        "Gb5",
+        "A5",
+        "C6"
+      ],
+      "bytes": 420151
+    },
+    "electricGuitar": {
+      "folder": "electric-guitar",
+      "soundfont": "electric_guitar_clean",
+      "notes": [
+        "C2",
+        "Eb2",
+        "Gb2",
+        "A2",
+        "C3",
+        "Eb3",
+        "Gb3",
+        "A3",
+        "C4",
+        "Eb4",
+        "Gb4",
+        "A4",
+        "C5",
+        "Eb5",
+        "Gb5",
+        "A5",
+        "C6"
+      ],
+      "bytes": 328917
+    },
+    "acousticGuitar": {
+      "folder": "acoustic-guitar",
+      "soundfont": "acoustic_guitar_steel",
+      "notes": [
+        "C2",
+        "Eb2",
+        "Gb2",
+        "A2",
+        "C3",
+        "Eb3",
+        "Gb3",
+        "A3",
+        "C4",
+        "Eb4",
+        "Gb4",
+        "A4",
+        "C5",
+        "Eb5",
+        "Gb5",
+        "A5",
+        "C6"
+      ],
+      "bytes": 303749
+    },
+    "bass": {
+      "folder": "bass",
+      "soundfont": "electric_bass_finger",
+      "notes": [
+        "C1",
+        "Eb1",
+        "Gb1",
+        "A1",
+        "C2",
+        "Eb2",
+        "Gb2",
+        "A2",
+        "C3",
+        "Eb3",
+        "Gb3",
+        "A3",
+        "C4",
+        "Eb4",
+        "Gb4",
+        "A4",
+        "C5"
+      ],
+      "bytes": 293973
+    }
+  }
+}

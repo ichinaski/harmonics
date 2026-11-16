@@ -1,0 +1,11 @@
+Title: Busy Bars
+Artist: QA
+
+[A]
+|: Cmaj7#11 Am9 Dm7b5 G7b9 | Ebmaj7 / Abmaj7 / | 1. Bbm7 Eb7 Abmaj7 Db7 | Gm7 C7 :|
+| 2. F#m7b5 B7alt | Em7 A7 Dm7 G7 | C6/9 | % |
+"Rubato, then in time"
+
+[B]
+| 3/4 C | Am | F/A | G/B |
+| 4/4 N.C. | C/// G | Fmaj7 / / Fm6 | C ||

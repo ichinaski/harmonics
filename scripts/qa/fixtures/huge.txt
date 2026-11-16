@@ -1,0 +1,259 @@
+Title: Huge Song
+Artist: QA
+
+[A]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+
+[Part 2]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+
+[Part 3]
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+
+[Part 4]
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 5]
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 6]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+
+[Part 7]
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| Am7b5 | D7 | Gm | % |
+
+[Part 8]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+
+[Part 9]
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+
+[Part 10]
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+
+[Part 11]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+
+[Part 12]
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+
+[Part 13]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 14]
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 15]
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+
+[Part 16]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+
+[Part 17]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| Am7b5 | D7 | Gm | % |
+
+[Part 18]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+
+[Part 19]
+| Am7b5 | D7 | Gm | % |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 20]
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 21]
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+
+[Part 22]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+
+[Part 23]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 24]
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+
+[Part 25]
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+
+[Part 26]
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+
+[Part 27]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+"Solos over this part"
+
+[Part 28]
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 29]
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+
+[Part 30]
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 31]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+
+[Part 32]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+
+[Part 33]
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 34]
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+
+[Part 35]
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| Am7b5 | D7 | Gm | % |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 36]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+"Solos over this part"
+
+[Part 37]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| Am7b5 | D7 | Gm | % |
+
+[Part 38]
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+
+[Part 39]
+| Am7b5 | D7 | Gm | % |
+"Solos over this part"
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |
+
+[Part 40]
+| C | Am | Dm7 G7 | C |
+|: Cm7 | F7 | 1. Bbmaj7 | Eb :| 2. Ebmaj7 Ab7 |
+| C | Am | Dm7 G7 | C |
+| C | Am | Dm7 G7 | C |

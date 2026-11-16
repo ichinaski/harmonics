@@ -1,0 +1,346 @@
+/* Global base styles. Component styles live in their .svelte files. */
+
+/* Inter, Latin subset (from @fontsource/inter, SIL OFL, see public/fonts/Inter-LICENSE.txt).
+   The files live in public/fonts; Vite prefixes these URLs with the build base
+   (/harmonics/), so they resolve under BASE_URL on GitHub Pages. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/inter-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/inter-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.25;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent-text);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+/* An outline, not a box-shadow, so it shows on top of components' own shadows. */
+:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+/* Chord symbols: larger, semi-bold. */
+.chord-symbol {
+  font-size: var(--font-size-chord);
+  font-weight: var(--font-weight-semibold);
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-5);
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.view-title {
+  font-size: 1.375rem;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*
+ * Result cards slide in when results change (keyed lists only animate new
+ * cards). Only the position moves: cards are always fully opaque, so a card
+ * caught mid-animation never looks dimmed or disabled.
+ */
+.results > * {
+  animation: result-in var(--duration) var(--easing);
+}
+
+@keyframes result-in {
+  from {
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+/* Segmented control: a group of aria-pressed buttons. */
+.segmented {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  border-radius: var(--radius-pill);
+  background: var(--bg);
+}
+
+.segmented > button {
+  min-height: 32px;
+  padding: 0 var(--space-3);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition:
+    background-color var(--duration) var(--easing),
+    color var(--duration) var(--easing);
+}
+
+.segmented > button:hover {
+  color: var(--text);
+}
+
+.segmented > button[aria-pressed='true'] {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Text button, accent colored. */
+.link-button {
+  min-height: 32px;
+  padding: 0 var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--accent-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background: var(--accent-soft);
+}
+
+.link-button:disabled {
+  color: var(--text-muted);
+  background: transparent;
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Toggle chip: an aria-pressed button for an on/off option, with a small switch. */
+.toggle-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 36px;
+  padding: 0 var(--space-3) 0 var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--surface-muted);
+  box-shadow: inset 0 0 0 1px var(--divider);
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition:
+    background-color var(--duration) var(--easing),
+    color var(--duration) var(--easing);
+}
+
+.toggle-chip::before {
+  content: '';
+  flex: none;
+  width: 26px;
+  height: 16px;
+  border-radius: var(--radius-pill);
+  background:
+    radial-gradient(circle at 8px 50%, var(--surface) 5px, transparent 5.5px),
+    var(--divider);
+  transition: background var(--duration) var(--easing);
+}
+
+.toggle-chip:hover {
+  color: var(--text);
+}
+
+.toggle-chip[aria-pressed='true'] {
+  background: var(--accent-soft);
+  box-shadow: none;
+  color: var(--accent-text);
+}
+
+.toggle-chip[aria-pressed='true']::before {
+  background:
+    radial-gradient(circle at 18px 50%, var(--accent-contrast) 5px, transparent 5.5px),
+    var(--accent);
+}
+
+/* Empty state inside a card: a short title and a hint. */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-6) var(--space-5);
+  text-align: center;
+}
+
+.empty-state .empty-title {
+  font-weight: var(--font-weight-semibold);
+}
+
+.empty-state .empty-hint {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+}
+
+/*
+ * Printing the Sheet (the app root has .print-sheet on the Sheet editor):
+ * a named page with 14 mm margins. Empty margin boxes keep Chrome (131 and
+ * later) from drawing its own header and footer (date, title, URL, page
+ * number) in those margins, even with "Headers and footers" checked.
+ * Browsers without margin boxes (Firefox, Safari) still print theirs unless
+ * it's turned off in the print dialog. A sheet that prints on more than one
+ * page (SheetPreview marks it per paper size, from the measured page
+ * breaks) uses the numbered page, "1 / 3" at the bottom of every page;
+ * browsers without margin boxes print none. The page count and Fit to
+ * (sheet/fit.ts, PRINT_MARGIN_MM) assume this 14 mm margin, and the paper
+ * sizes are told apart by the page box height (A4_MIN_PAGE_HEIGHT_PX).
+ */
+@page sheet {
+  margin: 14mm;
+
+  @top-left {
+    content: '';
+  }
+  @top-center {
+    content: '';
+  }
+  @top-right {
+    content: '';
+  }
+  @bottom-left {
+    content: '';
+  }
+  @bottom-center {
+    content: '';
+  }
+  @bottom-right {
+    content: '';
+  }
+}
+
+@page sheet-numbered {
+  margin: 14mm;
+
+  @top-left {
+    content: '';
+  }
+  @top-center {
+    content: '';
+  }
+  @top-right {
+    content: '';
+  }
+  @bottom-left {
+    content: '';
+  }
+  @bottom-center {
+    content: counter(page) ' / ' counter(pages);
+    color: #000;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 9pt;
+  }
+  @bottom-right {
+    content: '';
+  }
+}
+
+@media print {
+  .print-sheet {
+    page: sheet;
+  }
+}
+
+@media print and (min-height: 1090px) {
+  .print-sheet:has(.numbered-a4) {
+    page: sheet-numbered;
+  }
+}
+
+@media print and (max-height: 1089.98px) {
+  .print-sheet:has(.numbered-letter) {
+    page: sheet-numbered;
+  }
+}
+
